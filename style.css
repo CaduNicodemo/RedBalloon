@@ -24,6 +24,8 @@ body{ font-family: 'Poppins', sans-serif;}
     color: var(--font-blue);
 }
 a{color: var(--font-red);}
+p{color: var(--font-black);}
 .menu__titulo{
     color: var(--font-blue);
+
 }
