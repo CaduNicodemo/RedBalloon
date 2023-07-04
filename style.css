@@ -9,3 +9,11 @@
 .grid{
     display: grid;
 }
+.menu{
+    grid-column: 1,2;
+    display: block;
+}
+.content{
+    grid-column: 2,3;
+    display: block;
+}
