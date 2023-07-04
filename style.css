@@ -6,12 +6,18 @@
     --font-black: rgb(0,0,0);
 }
 
+body{ font-family: 'Poppins', sans-serif;}
 .menu{
-position: fixed;
-width: 100px;
+    position: fixed;
+    width: 100px;
+    display: flex;
+    font-size: 20px;
 }
+
 .content{
-    width: auto;}
+    width: auto;
+    position: relative;
+}
 
 .menu__titulo{
     color: var(--font-blue);
