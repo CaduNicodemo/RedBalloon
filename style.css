@@ -6,17 +6,12 @@
     --font-black: rgb(0,0,0);
 }
 
-.grid{
-    display: grid;
-}
 .menu{
-    grid-column: 1,1;
-    display: block;
+position: fixed;
+width: 100px;
 }
 .content{
-    grid-column: 2,2;
-    display: block;
-}
+    width: auto;}
 
 .menu__titulo{
     color: var(--font-blue);
