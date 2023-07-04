@@ -21,8 +21,9 @@ body{ font-family: 'Poppins', sans-serif;}
 }
 .intro,.assinsting,.teaching,.events,.certificates{
     font-size: 32px;
-    color: var(--font-red);
+    color: var(--font-blue);
 }
+a{color: var(--font-red);}
 .menu__titulo{
     color: var(--font-blue);
 }
