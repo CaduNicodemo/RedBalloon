@@ -4,5 +4,8 @@
     --font-blue: rgb(0,78,148);
     --font-red: rgb(226,20,58);
     --font-black: rgb(0,0,0);
+}
 
+.grid{
+    display: grid;
 }
