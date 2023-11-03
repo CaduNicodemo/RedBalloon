@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgb(22, 90, 236), rgb(133, 162, 226));
+    background-image: linear-gradient(rgb(22, 90, 236), rgb(22, 90, 236), rgb(133, 162, 226), rgb(133, 162, 226), rgb(42, 145, 64));
     background-attachment: fixed;
     cursor: url(frame1.gif), auto;
     animation: cursor .5s linear infinite;
