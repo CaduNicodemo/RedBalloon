@@ -1,31 +1,92 @@
-*{    
-    box-sizing: border-box;
-    --background-branco: rgb(250, 250, 250);
-    --font-blue: rgb(0,78,148);
-    --font-red: rgb(226,20,58);
-    --font-black: rgb(0,0,0);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(22, 90, 236), rgb(133, 162, 226));
+    background-attachment: fixed;
+    cursor: url(frame1.gif), auto;
+    animation: cursor .5s linear infinite;
 }
 
-body{ font-family: 'Poppins', sans-serif;}
-.menu{
-    position: fixed;
-    width: 100px;
+@keyframes cursor {
+    0% {
+        cursor: url('/photos/balloon2.cur'), auto;
+    }
+    50% {
+        cursor: url('/photos/balloon.cur'), auto;
+    }
+    100% {
+        cursor: url('/photos/balloon2.cur'), auto;
+    }
+}
+
+header,
+nav,
+section {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+header h1 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
     display: flex;
-    font-size: 20px;
+    justify-content: space-around;
 }
 
-.content{
-    width: auto;
-    position: absolute;
-    font-size: 24px;
+nav a {
+    text-decoration: none;
+    color: white;
 }
-.intro,.assinsting,.teaching,.events,.certificates{
-    font-size: 32px;
-    color: var(--font-blue);
-}
-a{color: var(--font-red);}
-p{color: var(--font-black);}
-.menu__titulo{
-    color: var(--font-blue);
 
+section h2 {
+    color: red;
+    padding-bottom: 1rem;
 }
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(200px, 5fr));
+}
+
+.image-gallery li {
+    list-style: none;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border: 2px solid #ffffff65;
+}
+
+.image-gallery img:hover {
+    border-color: #000000;
+}
+
+@media (max-width: 768px) {
+    .image-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+
+/* Add more CSS rules to style your portfolio as desired */
